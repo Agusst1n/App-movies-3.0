@@ -1,0 +1,10 @@
+.copy{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.658);
+    height: 100px;
+    background-color: #363535;
+    padding-bottom: 15px;
+    margin-top: 70px;
+}
