@@ -1,0 +1,38 @@
+.redContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px red; */
+}
+.redContainer a{
+    text-decoration: none;
+    color: white;
+}
+.subtitle{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    /* border: solid 1px blue; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.red{
+    display: flex;
+}
+.userParrafo{
+    font-size: 19px;
+    font-weight: 500;
+}
+.userParrafo:hover{
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.redes{
+    /* border: solid 1px violet; */
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

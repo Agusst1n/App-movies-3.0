@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Copyright from '../components/Copyright';
-
+import Redes from '../components/Redes';
 import Header from '../components/Header';
 
 import SectionMovieList from '../components/SectionMovieList';
@@ -46,7 +46,8 @@ const Home = () => {
           <Header className="header__home"/> 
           <SectionMovieList title="Destacados" movies={moviesPopular}/> 
           <SectionMovieList title="Mejor Ranking" movies={moviesTopRated}/>
-          <Copyright/>    
+          <Copyright/> 
+          {/* <Redes/>   */}
       </div>
   )
 };
